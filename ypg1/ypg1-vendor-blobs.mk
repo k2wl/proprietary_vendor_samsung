@@ -47,9 +47,9 @@ PRODUCT_COPY_FILES += \
 # Sensors, Lights etc
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ypg1/proprietary/bin/geomagneticd:system/bin/geomagneticd \
-    vendor/samsung/ypg1/proprietary/bin/orientationd:system/bin/orientationd \
-    vendor/samsung/ypg1/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so
+    vendor/samsung/ypg1/proprietary/bin/geomagneticd:system/vendor/bin/geomagneticd \
+    vendor/samsung/ypg1/proprietary/bin/orientationd:system/vendor/bin/orientationd \
+    vendor/samsung/ypg1/proprietary/lib/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so
 
 #
 # Bluetooth
@@ -63,6 +63,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ypg1/proprietary/bin/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/ypg1/proprietary/etc/gps.xml:system/vendor/etc/gps.xml \
-    vendor/samsung/ypg1/proprietary/bin/Certification.cer:system/vendor/bin/Certification.cer \
+	vendor/samsung/ypg1/proprietary/bin/Certification.cer:system/vendor/bin/Certification.cer \
     vendor/samsung/ypg1/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/ypg1/proprietary/lib/hw/gps.s5pc110.so:system/vendor/lib/hw/gps.s5pc110.so
